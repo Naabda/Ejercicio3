@@ -1,5 +1,5 @@
-//Created by David Abellán Navarro
-//
+//Created by David AbellÃ¡n Navarro
+//https://github.com/Naabda/Ejercicio3/blob/main/Ejercicio3DavidAbellanNavarro.java
 package EjerciciosEntregados;
 
 import java.util.Scanner;
@@ -14,33 +14,33 @@ public class Ejercicio3DavidAbellanNavarro {
 
 		do {
 			//Escribimos las opciones que posteriormente pondremos en las cajas.
-			System.out.println("Elige una opción");
+			System.out.println("Elige una opciÃ³n");
 			System.out.println("4.1-Administrar");
 			System.out.println("4.2-Inspeccionar");
 			System.out.println("4.3-Revisar");
-			System.out.println("4.4-Volver al Menú");
+			System.out.println("4.4-Volver al MenÃº");
 			subopcion=sc.nextInt();
-			//Definimos las cajas con nuestras opciones para el SubMenú.
+			//Definimos las cajas con nuestras opciones para el SubMenÃº.
 			switch (subopcion) {
 			case 1:
 				System.out.println("4.1-Administrando...");
 				break;
 			case 2:
-				System.out.println("4.2-Llamando hacienda para inspección.");
+				System.out.println("4.2-Llamando hacienda para inspecciÃ³n.");
 				break;
 			case 3:
 				System.out.println("4.3-Revisando su antivirus esto va para rato...");
 				break;
 			case 4:
-				System.out.println("4.4-Aquí tiene su menú.");
+				System.out.println("4.4-AquÃ­ tiene su menÃº.");
 				continuar = false;
 				break;
 			default:
-				System.out.println("Inserta una opción correcta");
+				System.out.println("Inserta una opciÃ³n correcta");
 			} 
 		}
 		while (continuar);
-	//Indicamos el cierre de esta función.
+	//Indicamos el cierre de esta funciÃ³n.
 	}
 
 	public static void main(String[] args) {
@@ -52,14 +52,14 @@ public class Ejercicio3DavidAbellanNavarro {
 
 		do {
 			//Escribimos las opciones que posteriormente pondremos en las cajas.
-			System.out.println("Elige una opción");
+			System.out.println("Elige una opciÃ³n");
 			System.out.println("1.Abrir programa");
 			System.out.println("2.Cerrar programa");
 			System.out.println("3.Guardar");
-			System.out.println("4.Submenú");
+			System.out.println("4.SubmenÃº");
 			System.out.println("5.Salir");
 			opcion=sc.nextInt();
-			//Definimos las cajas con las opciones del menú.
+			//Definimos las cajas con las opciones del menÃº.
 			switch (opcion) {
 			case 1:
 				System.out.println("Programa abierto");
@@ -74,11 +74,11 @@ public class Ejercicio3DavidAbellanNavarro {
 				mostrarSubMenu();
 				break;
 			case 5: 
-				System.out.println("Pague el menú antes de irse");
+				System.out.println("Pague el menÃº antes de irse");
 				continuar = false;
 				break;
 			default:
-				System.out.println("Inserta una opción correcta");
+				System.out.println("Inserta una opciÃ³n correcta");
 			} 
 		}
 		while (continuar); 
